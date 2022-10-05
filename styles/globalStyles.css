@@ -44,3 +44,7 @@ body {
   padding: 0 1rem;
   margin: 0 auto;
 }
+.body-dark{
+  background-color: var(--color-grey-0);
+  color: white;
+}

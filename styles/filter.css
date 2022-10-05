@@ -1,0 +1,42 @@
+.filter{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.buttons-genre{
+    height: 32px;
+    padding: 0px 8px;
+    font-weight: 600;
+    font-size: var(--font-2);
+    border: none;
+    color: var(--color-actived-fixed);
+    cursor: pointer;
+    background: var(--color-grey-8);
+    border-radius: 4px;
+}
+.buttons-genre:hover{
+    background-color: var(--color-grey-1);
+    color: white;
+}
+.buttons-genre-fixe{
+    background-color: var(--color-grey-1);
+    color: white;
+}
+.buttons-genre-dark{
+    background-color: var(--color-grey-2);
+    color:var(--color-grey-3);
+    border: solid 1px var(--color-grey-2);
+}
+.buttons-genre-dark:hover{
+    color: white;
+    border: solid 1px white;
+}
+.buttons-genre-dark-fixe{
+    color: white;
+    border: solid 1px white;
+}

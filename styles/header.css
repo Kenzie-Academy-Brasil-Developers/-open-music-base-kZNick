@@ -1,0 +1,21 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 77px;
+    margin-bottom: 55px;
+}
+.Logo{
+    font-size: var(--font-1);
+    font-weight: 600;
+}
+.button-Dark{
+    border-radius: 5px;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+.button-Dark-on{
+    background-color: var(--color-grey-1);
+    
+}
